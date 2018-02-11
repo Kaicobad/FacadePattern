@@ -1,0 +1,7 @@
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\FacadeLearning.BLL\bin\Debug\FacadeLearning.BLL.dll
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\FacadeLearning.BLL\bin\Debug\FacadeLearning.BLL.pdb
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\FacadeLearning.BLL\bin\Debug\FacadeLearning.DAL.dll
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\FacadeLearning.BLL\bin\Debug\FacadeLearning.DAL.pdb
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\FacadeLearning.BLL\obj\Debug\FacadeLearning.BLL.csprojResolveAssemblyReference.cache
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\FacadeLearning.BLL\obj\Debug\FacadeLearning.BLL.dll
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\FacadeLearning.BLL\obj\Debug\FacadeLearning.BLL.pdb

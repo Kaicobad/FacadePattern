@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LearningFacade_DB" Class="FacadeLearning_DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-R7TR8RG;Initial Catalog=LearningFacade_DB;User ID=sa" SettingsObjectName="FacadeLearning.DAL.Properties.Settings" SettingsPropertyName="LearningFacade_DBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblUser" Member="tblUsers">
+    <Type Name="tblUser">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="tblUser_tblContactNumber" Member="tblContactNumbers" ThisKey="UserId" OtherKey="UserId" Type="tblContactNumber" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblContactType" Member="tblContactTypes">
+    <Type Name="tblContactType">
+      <Column Name="ContactTypeId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ContactTypeName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="tblContactType_tblContactNumber" Member="tblContactNumbers" ThisKey="ContactTypeId" OtherKey="ContactNumberTypeId" Type="tblContactNumber" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblContactNumber" Member="tblContactNumbers">
+    <Type Name="tblContactNumber">
+      <Column Name="ContactNumberId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ContactNumberTypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ContactNumber" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Association Name="tblContactType_tblContactNumber" Member="tblContactType" ThisKey="ContactNumberTypeId" OtherKey="ContactTypeId" Type="tblContactType" IsForeignKey="true" />
+      <Association Name="tblUser_tblContactNumber" Member="tblUser" ThisKey="UserId" OtherKey="UserId" Type="tblUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

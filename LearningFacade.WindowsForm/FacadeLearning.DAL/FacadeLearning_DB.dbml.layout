@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FacadeLearning_DB">
+  <DataContextMoniker Name="/FacadeLearning_DBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0b048b8c-a369-4efb-9d81-6e397121d53f" absoluteBounds="0.75, 4.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/FacadeLearning_DBDataContext/tblUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="efd60311-6834-4ef7-a371-16b876838033" absoluteBounds="0.765, 4.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b0782346-d505-4e2e-a3ea-28dc23342159" absoluteBounds="0.75, 1.125, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/FacadeLearning_DBDataContext/tblContactType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf5bda08-467b-48ef-b954-05b39e78c487" absoluteBounds="0.765, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9067b5fc-3420-4921-a97d-ef3058cb2739" absoluteBounds="3.5, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FacadeLearning_DBDataContext/tblContactNumber" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44ac0e89-e1ea-4de2-8169-e8213946a762" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.72199625651042); (3.5 : 1.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FacadeLearning_DBDataContext/tblContactType/tblContactType_tblContactNumber" />
+      <nodes>
+        <classShapeMoniker Id="b0782346-d505-4e2e-a3ea-28dc23342159" />
+        <classShapeMoniker Id="9067b5fc-3420-4921-a97d-ef3058cb2739" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.72199625651042); (4.5 : 4.72199625651042); (4.5 : 2.45359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FacadeLearning_DBDataContext/tblUser/tblUser_tblContactNumber" />
+      <nodes>
+        <classShapeMoniker Id="0b048b8c-a369-4efb-9d81-6e397121d53f" />
+        <classShapeMoniker Id="9067b5fc-3420-4921-a97d-ef3058cb2739" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

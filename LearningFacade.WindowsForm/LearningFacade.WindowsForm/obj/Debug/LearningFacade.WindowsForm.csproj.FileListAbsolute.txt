@@ -1,0 +1,13 @@
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\bin\Debug\LearningFacade.WindowsForm.exe.config
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\obj\Debug\LearningFacade.WindowsForm.csprojResolveAssemblyReference.cache
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\obj\Debug\LearningFacade.WindowsForm.frmFacadeLearning.resources
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\obj\Debug\LearningFacade.WindowsForm.Properties.Resources.resources
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\obj\Debug\LearningFacade.WindowsForm.csproj.GenerateResource.Cache
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\bin\Debug\LearningFacade.WindowsForm.exe
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\bin\Debug\LearningFacade.WindowsForm.pdb
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\bin\Debug\FacadeLearning.BLL.dll
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\bin\Debug\FacadeLearning.DAL.dll
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\bin\Debug\FacadeLearning.BLL.pdb
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\bin\Debug\FacadeLearning.DAL.pdb
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\obj\Debug\LearningFacade.WindowsForm.exe
+c:\users\zanala\documents\visual studio 2013\Projects\LearningFacade.WindowsForm\LearningFacade.WindowsForm\obj\Debug\LearningFacade.WindowsForm.pdb
